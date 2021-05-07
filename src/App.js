@@ -45,7 +45,7 @@ export class App extends Component {
             <p>{this.state.Profession}</p>
           </div>
         ) : (
-          "Click on the button to show profile"
+          <h5>"Click on the button to show profile"</h5>
         )}
       </div>
     );
